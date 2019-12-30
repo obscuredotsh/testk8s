@@ -1,0 +1,4 @@
+kubectl get pod --show-lables -l release=0
+kubectl rollout status deploy webapp-rs
+kubectl rollout history deploy webapp-rs
+kubectl rollout undo deploy webapp-rs --to-revision=2
