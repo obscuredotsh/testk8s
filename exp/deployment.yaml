@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       mylabelname: webapp
-  replicas: 2
+  replicas: 10
   template:
     metadata:
       labels:
