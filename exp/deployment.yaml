@@ -22,4 +22,4 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: richardchesterwood/k8s-fleetman-webapp-angular:release0
+        image: richardchesterwood/k8s-fleetman-webapp-angular:release000000012
